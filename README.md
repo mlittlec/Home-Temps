@@ -15,6 +15,6 @@ date, min_temp,max_temp,conditions
 Where:
 
 * `date` - Use an ISO‑8601 format (YYYY-MM-DD).
-* `min_temp` - Store as a plain number (no °C or °F).
+* `min_temp` - Store as a plain number (no °C or °F). **Note:** All temperatures are recorded using SI Units, in this instance Centigrade (so conversion to Farenheit is required for some countries)
 * `max_temp` - Same format as `min_temp`.
 * `conditions` - Free text is fine:  “Sunny”, “Overcast”, “Light rain”, “Fog”, etc.

@@ -51,10 +51,10 @@ date,min_temp,max_temp,conditions
 
 ### Field Definitions
 
-* *date* — ISO‑8601 format (YYYY-MM-DD)
-* min_temp — minimum temperature (°C), numeric
-* max_temp — maximum temperature (°C), numeric
-* conditions — one or more weather condition terms
+* **date** — ISO‑8601 format (YYYY-MM-DD)
+* **min_temp** — minimum temperature (°C), numeric
+* **max_temp** — maximum temperature (°C), numeric
+* **conditions** — one or more weather condition terms
 
 If multiple condition terms are present, they are stored as a semicolon‑separated list inside quotes:
 

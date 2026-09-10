@@ -1,0 +1,39 @@
+# Weather Conditions Vocabulary (v1)
+# Terms are case-sensitive and intended for semicolon-separated lists.
+
+# Sky & Visibility
+Clear
+Sunny
+Partly cloudy
+Cloudy
+Overcast
+Mist
+Fog
+Freezing fog
+Haze
+
+# Rain & Moisture
+Drizzle
+Light rain
+Heavy rain
+Showers
+Thundery showers
+Thunderstorm
+
+# Snow & Ice
+Sleet
+Snow
+Light snow
+Heavy snow
+Blizzard
+Ice
+
+# Wind
+Breezy
+Windy
+Gales
+Severe gales
+
+# Other
+Humid
+Dry

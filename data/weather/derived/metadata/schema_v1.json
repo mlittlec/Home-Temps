@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "description": "Schema for daily weather observation CSV files (weather_daily_YYYY-MM.csv).",
+  "encoding": "UTF-8",
+  "delimiter": ",",
+  "multi_value_separator": ";",
+  "fields": [
+    {
+      "name": "date",
+      "type": "date",
+      "format": "YYYY-MM-DD",
+      "required": true,
+      "description": "Calendar date of observation in ISO-8601 format."
+    },
+    {
+      "name": "min_temp",
+      "type": "number",
+      "units": "Celsius",
+      "required": true,
+      "description": "Minimum temperature recorded for the day."
+    },
+    {
+      "name": "max_temp",
+      "type": "number",
+      "units": "Celsius",
+      "required": true,
+      "description": "Maximum temperature recorded for the day."
+    },
+    {
+      "name": "conditions",
+      "type": "list",
+      "separator": ";",
+      "required": true,
+      "description": "One or more weather condition terms from the controlled vocabulary."
+    }
+  ]
+}

@@ -65,7 +65,7 @@ Stored under: `derived/summaries/yearly/summary_YYYY.csv`
 
 These aggregate all months in the year.
 
-## Anomolies
+## Anomalies
 
 Anomaly files highlight unusual or extreme weather behaviour.
 

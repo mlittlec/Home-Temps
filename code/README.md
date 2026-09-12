@@ -15,6 +15,8 @@ The Python script does the following:
 
 It uses only the Python standard libraries + `pandas` + `matplotlib`.
 
+---
+
 ## PowerShell Script — Generate All Derived Datasets
 
 The powershell version mirrors the Python logic but uses PowerShell + `Import-Csv` + `System.Drawing` for plotting the charts.

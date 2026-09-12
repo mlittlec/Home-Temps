@@ -4,7 +4,7 @@
 
 The Python script does the following:
 
-- Loads all raw CSVs under weather/raw/YYYY/
+- Loads all raw CSVs under the `weather/raw/YYYY/` folder
 - Generates:
   - Monthly summaries
   - Yearly summaries

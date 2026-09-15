@@ -61,7 +61,7 @@ def ensure(path):
 
 
 def generate_monthly_summary(df, year, month):
-    
+
     """
     Generate summary statistics for a single month.
 
@@ -101,6 +101,7 @@ def generate_monthly_summary(df, year, month):
 
 
 def generate_yearly_summary(year):
+
     """
     Generate aggregate statistics for an entire year.
 
@@ -141,6 +142,7 @@ def generate_yearly_summary(year):
 
 
 def generate_monthly_anomalies(df, year, month):
+
     """
     Detect temperature anomalies within a month.
 
@@ -182,6 +184,7 @@ def generate_monthly_anomalies(df, year, month):
 
 
 def generate_yearly_anomalies(year):
+
     """
     Detect temperature anomalies across an entire year.
 
@@ -227,6 +230,7 @@ def generate_yearly_anomalies(year):
 
 
 def generate_monthly_charts(df, year, month):
+
     """
     Generate monthly temperature trend chart.
 
@@ -269,6 +273,7 @@ def generate_monthly_charts(df, year, month):
 
 
 def generate_yearly_charts(year):
+
     """
     Generate yearly temperature trend chart.
 
@@ -322,6 +327,7 @@ def generate_yearly_charts(year):
 
 
 def main():
+    
     """
     Process all available years found under RAW_ROOT.
     """

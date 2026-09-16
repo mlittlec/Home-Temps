@@ -1,6 +1,6 @@
 # Derived Weather Datasets
 
-This directory contains all **processed**, **aggregated**, and **visualised** outputs generated from the raw daily weather observations stored under `weather/raw/`.
+This directory contains all **processed**, **aggregated**, and **visualised** outputs generated from the raw daily weather observations stored in the `weather/raw/` folder.
 
 Derived datasets are organised by type (summaries, anomalies, charts, metadata) and follow a predictable, year‑based structure for long‑term maintainability.
 

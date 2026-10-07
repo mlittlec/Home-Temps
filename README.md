@@ -1,6 +1,6 @@
 # Home-Temps
 
-This repository holds a record of the maximum & minimum temperatures recorded from the same (shaded) location in our garden over the years.
+This repository holds a record of the maximum & minimum temperatures recorded from the same (shaded) location in our garden in Berkshire, England over the years.
 
 ## CSV File Format Used
 

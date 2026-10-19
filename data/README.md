@@ -20,7 +20,7 @@ This repository contains structured daily weather observations recorded in CSV f
 
  * Each year is isolated for clarity and scalability.
  * Monthly files keep datasets small and fast to load.
- * Filenames follow ISO‑8601 norms, making them sortable and script‑friendly.
+ * Filenames follow ISO-8601 norms, making them sortable and script-friendly.
 
 ## File naming convention
 
@@ -51,12 +51,12 @@ date,min_temp,max_temp,conditions
 
 ### Field Definitions
 
-* **date** — ISO‑8601 format (YYYY-MM-DD)
-* **min_temp** — minimum temperature (°C), numeric
-* **max_temp** — maximum temperature (°C), numeric
-* **conditions** — one or more weather condition terms
+* **date** - ISO-8601 format (YYYY-MM-DD)
+* **min_temp** - minimum temperature (°C), numeric
+* **max_temp** - maximum temperature (°C), numeric
+* **conditions** - one or more weather condition terms
 
-If multiple condition terms are present, they are stored as a semicolon‑separated list inside quotes:
+If multiple condition terms are present, they are stored as a semicolon-separated list inside quotes:
 
 ```text
 "Rain;Windy;Low visibility"
@@ -64,7 +64,7 @@ If multiple condition terms are present, they are stored as a semicolon‑separa
 
 ## Weather Conditions Vocabulary
 
-To ensure consistency, the conditions field uses a MET‑Office‑style vocabulary. Terms include:
+To ensure consistency, the conditions field uses a MET-Office style vocabulary. Terms include:
 
 ### Sky & Visibility
 
@@ -113,8 +113,8 @@ Multiple terms may be combined when appropriate (e.g., "Light rain;Breezy").
 ## Usage notes
 
 * All temperatures are recorded in degrees Celsius.
-* All files are plain CSV with UTF‑8 encoding.
-* Data is intended for long‑term analysis, automation, and visualisation.
+* All files are plain CSV with UTF-8 encoding.
+* Data is intended for long-term analysis, automation, and visualisation.
 * Additional fields (e.g., humidity, wind speed, precipitation) may be added in future versions.
 
 ## Automation

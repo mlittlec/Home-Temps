@@ -1,6 +1,6 @@
 # Weather Data Archive
 
-This repository contains structured daily weather observations recorded in CSV format. The layout aims to make data storage & manual navigation as easy as ossible, and to also provide simple automation across multiple years.
+This repository contains structured daily weather observations recorded in CSV format. The layout aims to make data storage & manual navigation as easy as possible, and to also provide simple automation across multiple years.
 
 ## Directory Structure
 
@@ -24,7 +24,7 @@ This repository contains structured daily weather observations recorded in CSV f
 
 ## File naming convention
 
-Daily weather logs are stored in **monthly CSV files** using the following pattern:
+Daily weather logs are stored in **monthly CSV files** using the following naming pattern:
 
 ```text
 weather_daily_YYYY-MM.csv

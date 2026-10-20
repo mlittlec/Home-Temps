@@ -108,12 +108,12 @@ To ensure consistency, the conditions field uses a MET-Office style vocabulary. 
 * Humid
 * Dry
 
-Multiple terms may be combined when appropriate (e.g., "Light rain;Breezy").
+Multiple terms may be combined when appropriate by using a semi-colon (e.g., "Light rain;Breezy").
 
 ## Usage notes
 
 * All temperatures are recorded in degrees Celsius.
-* All files are plain CSV with UTF-8 encoding.
+* All files are plain text CSV with UTF-8 encoding.
 * Data is intended for long-term analysis, automation, and visualisation.
 * Additional fields (e.g., humidity, wind speed, precipitation) may be added in future versions.
 
@@ -121,11 +121,11 @@ Multiple terms may be combined when appropriate (e.g., "Light rain;Breezy").
 
 Scripts can safely assume:
 
-* Year directories follow YYYY/
-* Monthly files follow weather_daily_YYYY-MM.csv
-* CSV schema is stable and consistent across years
+* Year directories follow this format: `YYYY/`
+* Monthly file names follow this format: `weather_daily_YYYY-MM.csv`
+* The CSV schema used is stable and consistent across years
 
-This makes it easy to build:
+This should make it easy to build:
 
 * Annual summaries
 * Monthly averages

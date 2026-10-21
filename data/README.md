@@ -1,6 +1,6 @@
 # Weather Data Archive
 
-This repository contains structured daily weather observations recorded in CSV format. The layout aims to make data storage & manual navigation as easy as possible, and to also provide simple automation across multiple years.
+This repository contains structured daily weather observations recorded in the industry-standard CSV format. The layout aims to make data storage & manual navigation as easy as possible, and to also provide simple automation across multiple years.
 
 ## Directory Structure
 
@@ -19,7 +19,7 @@ This repository contains structured daily weather observations recorded in CSV f
 ## Why This Structure?
 
  * Each year is isolated for clarity and scalability.
- * Monthly files keep datasets small and fast to load.
+ * Monthly files keep the datasets small and fast to load.
  * Filenames follow ISO-8601 norms, making them sortable and script-friendly.
 
 ## File naming convention
@@ -38,7 +38,7 @@ Examples:
 This naming scheme ensures:
 
 * Natural chronological sorting
-* Easy globbing in scripts (weather_daily_2026-*.csv)
+* Easy globbing in scripts (`weather_daily_2026-*.csv`)
 * Compatibility across platforms and tools
 
 ## CSV Schema
@@ -64,7 +64,7 @@ If multiple condition terms are present, they are stored as a semicolon-separate
 
 ## Weather Conditions Vocabulary
 
-To ensure consistency, the conditions field uses a MET-Office style vocabulary. Terms include:
+To ensure consistency, the conditions field uses a MET-Office style vocabulary. The terms to use include:
 
 ### Sky & Visibility
 

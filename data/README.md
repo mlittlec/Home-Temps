@@ -108,7 +108,7 @@ To ensure consistency, the conditions field uses a MET-Office style vocabulary. 
 * Humid
 * Dry
 
-Multiple terms may be combined when appropriate by using a semi-colon (e.g., "Light rain;Breezy").
+Multiple terms may be combined when appropriate by using a semi-colon (e.g., "Light rain;Breezy"). (**Note:** No timing data is included as part of these observations)
 
 ## Usage notes
 
@@ -119,7 +119,7 @@ Multiple terms may be combined when appropriate by using a semi-colon (e.g., "Li
 
 ## Automation
 
-Scripts can safely assume:
+Scripts using this data can safely assume the following:
 
 * Year directories follow this format: `YYYY/`
 * Monthly file names follow this format: `weather_daily_YYYY-MM.csv`

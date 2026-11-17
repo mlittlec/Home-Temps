@@ -98,6 +98,7 @@ To ensure consistency, the conditions field uses a MET-Office style vocabulary. 
 
 ### Wind
 
+* Light Breeze
 * Breezy
 * Windy
 * Gales
